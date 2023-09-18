@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="App.Mailbox.AppTheme" parent="App.Mailbox.BaseTheme"/>
+
+    <style name="App.Mailbox.BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_mailbox_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_mailbox_colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/app_mailbox_colorPrimaryLight</item>
+        <item name="colorAccent">@color/app_mailbox_colorAccent</item>
+    </style>
+
+    <style name="App.Mailbox.DrawerStyle" parent="App.Mailbox.BaseTheme">
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="TitleWithShadow">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#cc000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+    <style name="App.Mailbox.AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+    <style name="App.Mailbox.AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="App.Mailbox.Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="App.Mailbox.TextAppearance.CardContent.Headline.Medium" parent="">
+        <item name="android:textColor">@color/app_mailbox_colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
+
+</resources>

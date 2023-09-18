@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.insta">
+
+    <application>
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Insta.AppTheme" />
+        <activity
+            android:name=".ActivityLogin"
+            android:exported="false"
+            android:theme="@style/App.Insta.AppTheme" />
+        <activity
+            android:name=".ActivityHelp"
+            android:exported="false"
+            android:theme="@style/App.Insta.AppTheme" />
+
+    </application>
+
+</manifest>

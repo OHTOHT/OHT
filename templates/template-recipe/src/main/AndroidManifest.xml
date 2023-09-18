@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.recipe">
+
+    <application>
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Recipe.AppTheme" />
+        <activity
+            android:name=".ActivityCategoryDetails"
+            android:exported="false"
+            android:theme="@style/App.Recipe.AppTheme" />
+        <activity
+            android:name=".ActivityRecipeDetails"
+            android:exported="false"
+            android:theme="@style/App.Recipe.AppTheme" />
+    </application>
+
+</manifest>

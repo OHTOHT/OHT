@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.material.components"
+        minSdk 19
+        targetSdk 33
+        versionCode 310
+        versionName "3.1"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+/* IMPORTANT :
+ * Be careful when update dependencies, different version library may caused error */
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    
+    implementation project(path: ':screens')
+    implementation project(path: ':templates:template-taxi')
+    implementation project(path: ':templates:template-mailbox')
+    implementation project(path: ':templates:template-news')
+    implementation project(path: ':templates:template-social')
+    implementation project(path: ':templates:template-shop')
+    implementation project(path: ':templates:template-messenger')
+    implementation project(path: ':templates:template-recipe')
+    implementation project(path: ':templates:template-music')
+    implementation project(path: ':templates:template-chat')
+    implementation project(path: ':templates:template-travel')
+    implementation project(path: ':templates:template-insta')
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // google support library ---------------------------------------------------------------------
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.browser:browser:1.5.0'
+    implementation 'com.google.android.play:app-update:2.0.1'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+
+    // google gson --------------------------------------------------------------------------------
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // third party dependencies -------------------------------------------------------------------
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.google.android:flexbox:0.3.2'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    // rest API
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.2'
+
+    // database
+    implementation 'androidx.room:room-runtime:2.4.3'
+    annotationProcessor 'androidx.room:room-compiler:2.4.3'
+
+}

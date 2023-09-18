@@ -1,0 +1,71 @@
+<resources>
+
+    <style name="App.Recipe.AppTheme" parent="App.Recipe.BaseTheme"/>
+
+    <style name="App.Recipe.BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_recipe_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_recipe_colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/app_recipe_colorPrimaryLight</item>
+        <item name="colorAccent">@color/app_recipe_colorAccent</item>
+    </style>
+
+    <style name="App.Recipe.DrawerStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlHighlight">#26000000</item>
+        <item name="listPreferredItemHeightSmall">60dp</item>
+    </style>
+
+    <style name="App.Recipe.Checkbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorPrimary">@color/app_recipe_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_recipe_colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/app_recipe_colorPrimaryLight</item>
+        <item name="colorAccent">@color/app_recipe_colorAccent</item>
+    </style>
+
+    <style name="App.Recipe.FabStyle" parent="App.Recipe.BaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/app_recipe_spacing_large</item>
+        <item name="android:src">@drawable/app_recipe_ic_people</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="App.Recipe.TitleWithShadow" parent="App.Recipe.BaseTheme">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#cc000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+    <style name="App.Recipe.AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+    <style name="App.Recipe.AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="App.Recipe.Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="App.Recipe.TextAppearance.CardContent.Headline.Medium" parent="">
+        <item name="android:textColor">@color/app_recipe_colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
+
+    <style name="App.Recipe.RippleStyleWhite" parent="App.Recipe.BaseTheme">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+    <style name="App.Recipe.RippleStyleBlack" parent="App.Recipe.RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+
+</resources>

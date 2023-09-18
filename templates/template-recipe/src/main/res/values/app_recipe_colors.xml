@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_recipe_colorPrimary">#9D1BB3</color>
+    <color name="app_recipe_colorPrimaryDark">#9119AE</color>
+    <color name="app_recipe_colorPrimaryLight">#A73CC2</color>
+
+    <color name="app_recipe_colorAccent">#FE5722</color>
+    <color name="app_recipe_colorAccentDark">#F00000</color>
+    <color name="app_recipe_colorAccentLight">#FF5FA0</color>
+
+    <color name="app_recipe_grey_hard">#96989A</color>
+    <color name="app_recipe_grey_medium">#BDBFC1</color>
+    <color name="app_recipe_grey_soft">#F5F5F5</color>
+
+    <color name="app_recipe_grey_bg">#E6E6E6</color>
+
+    <color name="app_recipe_icon_drawer_color">#727272</color>
+</resources>

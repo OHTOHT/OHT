@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.taxi">
+
+    <application>
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityBooking"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityBookingHistoryDetails"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityBookingActiveDetails"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityPayment"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityHelpCenter"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityNotification"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivitySettings"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+        <activity
+            android:name=".ActivityRequestRide"
+            android:exported="false"
+            android:theme="@style/App.Taxi.AppTheme" />
+
+    </application>
+</manifest>

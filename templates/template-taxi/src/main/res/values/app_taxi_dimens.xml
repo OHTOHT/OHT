@@ -1,0 +1,27 @@
+<resources>
+
+    <dimen name="app_taxi_drawer_width">240dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="app_taxi_activity_horizontal_margin">16dp</dimen>
+    <dimen name="app_taxi_activity_vertical_margin">16dp</dimen>
+    <dimen name="app_taxi_card_margin">10dp</dimen>
+    <dimen name="app_taxi_fab_margin_right">26dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="app_taxi_spacing_small">3dp</dimen>
+    <dimen name="app_taxi_spacing_xsmall">2dp</dimen>
+    <dimen name="app_taxi_spacing_medium">4dp</dimen>
+    <dimen name="app_taxi_spacing_regular">6dp</dimen>
+    <dimen name="app_taxi_spacing_middle">10dp</dimen>
+    <dimen name="app_taxi_spacing_large">16dp</dimen>
+    <dimen name="app_taxi_spacing_mlarge">20dp</dimen>
+    <dimen name="app_taxi_spacing_xlarge">32dp</dimen>
+
+    <dimen name="app_taxi_elevation_low">9dp</dimen>
+    <dimen name="app_taxi_elevation_high">12dp</dimen>
+    <dimen name="app_taxi_status_bar_height">25dp</dimen>
+    <dimen name="app_taxi_fab_margin">16dp</dimen>
+
+    <dimen name="app_taxi_recycler_item_size">192dp</dimen>
+    <dimen name="app_taxi_class_image_size">40dp</dimen>
+</resources>

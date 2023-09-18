@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_recipe_app_name">The Recipe</string>
+
+    <string name="app_recipe_navigation_drawer_open">Open navigation drawer</string>
+    <string name="app_recipe_navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_recipe_action_settings">Settings</string>
+    <!--exit notification-->
+    <string name="app_recipe_press_again_exit_app">Press again to exit</string>
+</resources>

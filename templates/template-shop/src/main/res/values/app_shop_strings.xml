@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_shop_app_name">Shopper App</string>
+    <string name="app_shop_slogan">Shopping on The Go</string>
+
+    <string name="app_shop_about_text">E-Commerce aplication template with material design.
+        \n\nImage source :
+        \n<a href="www.pexels.com">www.pexels.com</a>
+        \n<a href="www.pixabay.com">www.pixabay.com</a>
+    </string>
+
+    <!--string drawer menu-->
+    <string name="app_shop_menu_cart">Cart</string>
+    <string name="app_shop_menu_new">New Items</string>
+    <string name="app_shop_menu_promotions">Promotions</string>
+
+    <string name="app_shop_menu_clothing">Clothing</string>
+    <string name="app_shop_menu_shoes">Shoes</string>
+    <string name="app_shop_menu_watches">Watches</string>
+    <string name="app_shop_menu_accessories">Accessories</string>
+    <string name="app_shop_menu_bags">Bags</string>
+
+    <string name="app_shop_drawer_open">Open</string>
+    <string name="app_shop_drawer_close">Close</string>
+
+    <!--exit notification-->
+    <string name="app_shop_press_again_exit_app">Press again to exit</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/app_mailbox_ic_menu_search"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_mail"
+        android:icon="@drawable/app_mailbox_ic_mail"
+        android:orderInCategory="100"
+        android:title="Compose Mail"
+        app:showAsAction="always" />
+</menu>

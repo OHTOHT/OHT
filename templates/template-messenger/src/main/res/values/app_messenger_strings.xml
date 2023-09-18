@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_messenger_app_name">Messenger App</string>
+
+    <!--exit notification-->
+    <string name="app_messenger_press_again_exit_app">Press again to exit</string>
+
+    <!--dont edit-->
+    <string name="app_messenger_drawer_open">Open</string>
+    <string name="app_messenger_drawer_close">Close</string>
+
+    <string name="app_messenger_my_name">John Miller</string>
+
+    <string name="app_messenger_tab_recent">Recent Chat</string>
+    <string name="app_messenger_tab_call">Call</string>
+    <string name="app_messenger_tab_group">Group</string>
+    <string name="app_messenger_tab_friend">Friend</string>
+    <string name="app_messenger_tab_setting">Setting</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.music">
+
+    <application>
+
+        <activity
+            android:name=".ActivitySplash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/App.Music.AppTheme" />
+
+        <activity
+            android:name=".ActivityMain"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/App.Music.AppTheme" />
+
+        <activity
+            android:name=".ActivityPlayerDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/App.Music.AppTheme" />
+
+        <activity
+            android:name=".ActivityAlbumDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/App.Music.AppTheme" />
+
+    </application>
+
+</manifest>

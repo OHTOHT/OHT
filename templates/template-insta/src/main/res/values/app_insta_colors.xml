@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_insta_colorPrimary">#115688</color>
+    <color name="app_insta_colorPrimaryDark">#0E4973</color>
+    <color name="app_insta_colorPrimaryLight">#236391</color>
+
+    <color name="app_insta_colorAccent">#115688</color>
+    <color name="app_insta_colorAccentDark">#0E4973</color>
+    <color name="app_insta_colorAccentLight">#236391</color>
+
+    <color name="app_insta_grey_hard">#96989A</color>
+    <color name="app_insta_grey_medium">#BDBFC1</color>
+    <color name="app_insta_grey_soft">#F5F5F5</color>
+    <color name="app_insta_grey_dark">#262626</color>
+    <color name="app_insta_grey_bg">#E6E6E6</color>
+    <color name="app_insta_grey_text">#222D31</color>
+    <color name="app_insta_tab_indicator_color">#FFFFFF</color>
+    <color name="app_insta_me_chat_bg">#FFE0B2</color>
+    <color name="app_insta_bg_bottom_menu">#f2f2f2</color>
+
+    <color name="app_insta_darkOverlay">#80000000</color>
+    <color name="app_insta_darkOverlaySoft">#40000000</color>
+    <color name="app_insta_whiteOverlay">#40FFFFFF</color>
+
+    <color name="app_insta_bt_add_color">#49a6e9</color>
+
+    <!-- Screens background color-->
+    <color name="app_insta_bg_screen1">#8955D1</color>
+    <color name="app_insta_bg_screen2">#FDA52A</color>
+    <color name="app_insta_bg_screen3">#07B2DD</color>
+    <color name="app_insta_bg_screen4">#50A50A</color>
+
+</resources>

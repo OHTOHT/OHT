@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/app_taxi_spacing_middle"
+    android:paddingLeft="@dimen/app_taxi_spacing_large"
+    android:paddingRight="@dimen/app_taxi_spacing_large"
+    android:paddingTop="@dimen/app_taxi_spacing_middle">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/app_taxi_class_image_size"
+        android:layout_height="@dimen/app_taxi_class_image_size"
+        android:src="@drawable/app_taxi_ride_large" />
+
+    <View
+        android:layout_width="@dimen/app_taxi_spacing_middle"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/class_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/app_taxi_grey_text"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-6 pax"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/app_taxi_grey_very_hard" />
+
+            <View
+                android:layout_width="@dimen/app_taxi_spacing_medium"
+                android:layout_height="0dp" />
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/app_taxi_ic_pax"
+                android:tint="@color/app_taxi_grey_medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="$12.5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/app_taxi_price_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 min"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/app_taxi_grey_text"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/app_taxi_spacing_regular"
+        android:layout_height="0dp" />
+
+</LinearLayout>

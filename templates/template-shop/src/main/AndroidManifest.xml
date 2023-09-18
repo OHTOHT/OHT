@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.shop">
+    
+    <application>
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="false"
+            android:theme="@style/App.Shop.AppTheme" />
+
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Shop.AppTheme" />
+
+        <activity
+            android:name=".ActivityItemDetails"
+            android:exported="false"
+            android:theme="@style/App.Shop.AppTheme" />
+
+        <!-- app social activity ================================================================-->
+
+        <activity
+            android:name="template.social.ActivitySplash"
+            android:exported="false"
+            android:theme="@style/App.Social.AppTheme" />
+
+        <activity
+            android:name="template.social.ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Social.AppTheme" />
+
+        <activity
+            android:name="template.social.ActivityFriendDetails"
+            android:exported="false"
+            android:theme="@style/App.Social.AppTheme" />
+
+        <activity
+            android:name="template.social.ActivityChatDetails"
+            android:exported="false"
+            android:theme="@style/App.Social.AppTheme" />
+
+        <activity
+            android:name="template.social.ActivitySelectFriend"
+            android:exported="false"
+            android:label="@string/app_social_activity_select_friend"
+            android:theme="@style/App.Social.AppTheme" />
+
+        <activity
+            android:name="template.social.ActivityLogin"
+            android:exported="false"
+            android:label="@string/app_social_title_activity_activity_login"
+            android:theme="@style/App.Social.AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="template.social.ActivityRegistration"
+            android:exported="false"
+            android:theme="@style/App.Social.AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>

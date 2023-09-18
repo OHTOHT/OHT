@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_music_colorPrimary">#262929</color>
+    <color name="app_music_colorPrimaryDark">#212424</color>
+    <color name="app_music_colorPrimaryLight">#2A2E2E</color>
+
+    <color name="app_music_colorAccent">#0FD16D</color>
+    <color name="app_music_colorAccentDark">#0FC266</color>
+    <color name="app_music_colorAccentLight">#0DDE72</color>
+
+    <color name="app_music_grey_hard">#96989A</color>
+    <color name="app_music_grey_medium">#BDBFC1</color>
+    <color name="app_music_grey_soft">#d9d9d9</color>
+    <color name="app_music_grey_bg">#F7F7F7</color>
+    <color name="app_music_grey_dark">#262626</color>
+
+    <color name="app_music_darkOverlay">#80000000</color>
+    <color name="app_music_darkOverlaySoft">#40000000</color>
+    <color name="app_music_whiteOverlay">#40FFFFFF</color>
+
+    <!--for random color generator -->
+    <array name="app_music_mdcolor_random">
+        <item type="color">#C2185B</item>
+        <item type="color">#7B1FA2</item>
+        <item type="color">#C62828</item>
+        <item type="color">#689F38</item>
+        <item type="color">#558B2F</item>
+        <item type="color">#006064</item>
+        <item type="color">#0D47A1</item>
+        <item type="color">#009688</item>
+        <item type="color">#00695C</item>
+        <item type="color">#D84315</item>
+        <item type="color">#37474F</item>
+        <item type="color">#E65100</item>
+    </array>
+
+</resources>

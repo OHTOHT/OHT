@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_adjust"
+        android:icon="@drawable/app_travel_ic_adjust"
+        android:orderInCategory="100"
+        android:title="Adjust Result"
+        app:showAsAction="always" />
+
+</menu>

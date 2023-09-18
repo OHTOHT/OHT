@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- On pressed -->
+    <item android:state_focused="false" android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/app_travel_spacing_small" />
+                    <solid android:color="@color/app_travel_colorAccentDark" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- On unpressed -->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/app_travel_spacing_small" />
+                    <solid android:color="@color/app_travel_colorAccent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
+
+

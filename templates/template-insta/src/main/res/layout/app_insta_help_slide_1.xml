@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_insta_bg_screen1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/app_insta_img_width_height"
+            android:layout_height="@dimen/app_insta_img_width_height"
+            android:layout_margin="@dimen/app_insta_spacing_middle"
+            android:src="@drawable/app_insta_ic_help_idea"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_insta_slide_1_title"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="@dimen/app_insta_spacing_large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_insta_spacing_large"
+            android:paddingLeft="@dimen/app_insta_desc_padding"
+            android:paddingRight="@dimen/app_insta_desc_padding"
+            android:text="@string/app_insta_slide_1_desc"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+    </LinearLayout>
+</RelativeLayout>

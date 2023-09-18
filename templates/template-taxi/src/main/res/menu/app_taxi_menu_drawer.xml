@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/app_taxi_ic_history"
+            android:title="@string/app_taxi_title_booking" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/app_taxi_ic_notification"
+            android:title="@string/app_taxi_title_notification" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/app_taxi_ic_payment"
+            android:title="@string/app_taxi_title_payment" />
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/app_taxi_ic_coupon"
+            android:title="@string/app_taxi_title_coupon" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/app_taxi_ic_help"
+            android:title="@string/app_taxi_title_help" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/app_taxi_ic_settings"
+            android:title="@string/app_taxi_title_settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/app_taxi_ic_about"
+            android:title="@string/app_taxi_title_about" />
+    </group>
+
+</menu>

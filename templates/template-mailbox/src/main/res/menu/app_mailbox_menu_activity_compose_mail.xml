@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_attch"
+        android:icon="@drawable/app_mailbox_ic_attach_white"
+        android:orderInCategory="10"
+        android:title="Attachment"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_send"
+        android:icon="@drawable/app_mailbox_ic_outbox_white"
+        android:orderInCategory="10"
+        android:title="Send"
+        app:showAsAction="always" />
+
+</menu>

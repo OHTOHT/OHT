@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.messenger">
+
+    <application>
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+        <activity
+            android:name=".ActivityChatDetails"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+        <activity
+            android:name=".ActivityCalling"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+        <activity
+            android:name=".ActivityVideo"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+        <activity
+            android:name=".ActivityGroupDetails"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+        <activity
+            android:name=".ActivityViewProfile"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="false"
+            android:theme="@style/App.Messenger.AppTheme" />
+    </application>
+
+</manifest>

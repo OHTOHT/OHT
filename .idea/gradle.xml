@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/main" />
+            <option value="$PROJECT_DIR$/screens" />
+            <option value="$PROJECT_DIR$/templates" />
+            <option value="$PROJECT_DIR$/templates/template-chat" />
+            <option value="$PROJECT_DIR$/templates/template-insta" />
+            <option value="$PROJECT_DIR$/templates/template-mailbox" />
+            <option value="$PROJECT_DIR$/templates/template-messenger" />
+            <option value="$PROJECT_DIR$/templates/template-music" />
+            <option value="$PROJECT_DIR$/templates/template-news" />
+            <option value="$PROJECT_DIR$/templates/template-recipe" />
+            <option value="$PROJECT_DIR$/templates/template-shop" />
+            <option value="$PROJECT_DIR$/templates/template-social" />
+            <option value="$PROJECT_DIR$/templates/template-taxi" />
+            <option value="$PROJECT_DIR$/templates/template-travel" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

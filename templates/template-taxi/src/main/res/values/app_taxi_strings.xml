@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_taxi_app_name">Taxi App</string>
+
+    <string name="app_taxi_about_text">This is Demo Taxi App template, this app use dummy data not related with any backend
+    \n\nImage source :
+        \n<a href="www.pexels.com">www.pexels.com</a>
+        \n<a href="www.pixabay.com">www.pixabay.com</a>
+    </string>
+
+    <string name="app_taxi_google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        QUl6YVN5RGRCUmhpUnVCV0lSMUZVUG9oTloza2ExNDN0T3lzRXlV
+    </string>
+
+    <string name="app_taxi_found_driver_msg">We found you a driver, \nenjoy your ride!</string>
+
+    <string name="app_taxi_navigation_drawer_open">Open navigation drawer</string>
+    <string name="app_taxi_navigation_drawer_close">Close navigation drawer</string>
+
+    <!--menu title-->
+    <string name="app_taxi_title_booking">Booking</string>
+    <string name="app_taxi_title_notification">Notification</string>
+    <string name="app_taxi_title_payment">Payment</string>
+    <string name="app_taxi_title_coupon">Coupon</string>
+    <string name="app_taxi_title_help">Help Center</string>
+    <string name="app_taxi_title_settings">Settings</string>
+    <string name="app_taxi_title_about">About</string>
+
+</resources>

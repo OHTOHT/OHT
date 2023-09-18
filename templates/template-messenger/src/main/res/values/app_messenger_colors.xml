@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_messenger_colorPrimary">#F96332</color>
+    <color name="app_messenger_colorPrimaryDark">#C74F28</color>
+    <color name="app_messenger_colorPrimaryLight">#FF7F54</color>
+
+    <color name="app_messenger_colorAccent">#F96332</color>
+    <color name="app_messenger_colorAccentDark">#C74F28</color>
+    <color name="app_messenger_colorAccentLight">#FF7F54</color>
+
+    <color name="app_messenger_grey_hard">#96989A</color>
+    <color name="app_messenger_grey_medium">#BDBFC1</color>
+    <color name="app_messenger_grey_soft">#d9d9d9</color>
+    <color name="app_messenger_grey_bg">#F7F7F7</color>
+    <color name="app_messenger_grey_dark">#262626</color>
+
+    <color name="app_messenger_darkOverlay">#80000000</color>
+    <color name="app_messenger_darkOverlaySoft">#40000000</color>
+    <color name="app_messenger_whiteOverlay">#40FFFFFF</color>
+
+</resources>

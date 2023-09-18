@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:checked="true"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/app_mailbox_str_nav_inbox"
+            app:actionLayout="@layout/app_mailbox_menu_counter_colored" />
+        <item
+            android:id="@+id/nav_outbox"
+            android:icon="@drawable/app_mailbox_ic_outbox"
+            android:title="@string/app_mailbox_str_nav_outbox" />
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/app_mailbox_ic_people"
+            android:title="@string/app_mailbox_str_nav_people" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/app_mailbox_ic_trash"
+            android:title="@string/app_mailbox_str_nav_trash"
+            app:actionLayout="@layout/app_mailbox_menu_counter" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/app_mailbox_ic_setting"
+                    android:title="@string/app_mailbox_str_nav_setting" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/app_mailbox_ic_help"
+                    android:title="@string/app_mailbox_str_nav_help" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

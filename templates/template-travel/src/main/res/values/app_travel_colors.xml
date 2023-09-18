@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="app_travel_colorPrimary">#206E60</color>
+    <color name="app_travel_colorPrimaryDark">#19594D</color>
+    <color name="app_travel_colorPrimaryLight">#339684</color>
+
+    <color name="app_travel_colorAccent">#CDDC39</color>
+    <color name="app_travel_colorAccentDark">#C0CA33</color>
+    <color name="app_travel_colorAccentLight">#D4E157</color>
+    <color name="app_travel_textColorSecondary">@color/app_travel_grey_hard</color>
+
+    <color name="app_travel_backGroundPrimary">@color/background_material_light</color>
+
+    <color name="app_travel_dialogContentColor">#767676</color>
+
+    <color name="app_travel_cardFeaturedContent">#E0E0E0</color>
+
+    <color name="app_travel_notif_color">#F58634</color>
+
+    <color name="app_travel_grey_very_hard">#7D7D7D</color>
+    <color name="app_travel_grey_hard">#96989A</color>
+    <color name="app_travel_grey_medium">#BDBFC1</color>
+    <color name="app_travel_grey_soft">#F5F5F5</color>
+    <color name="app_travel_grey_dark">#262626</color>
+
+    <color name="app_travel_grey_bg">#EBEFF0</color>
+    <color name="app_travel_grey_text">#222D31</color>
+    <color name="app_travel_me_chat_bg">#FFE0B2</color>
+
+</resources>

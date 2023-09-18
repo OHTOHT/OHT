@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_taxi_colorPrimary">#F7CE00</color>
+    <color name="app_taxi_colorPrimaryDark">#E6C312</color>
+    <color name="app_taxi_colorPrimaryLight">#FFD500</color>
+
+    <color name="app_taxi_colorAccent">#302D2D</color>
+    <color name="app_taxi_colorAccentDark">#292727</color>
+    <color name="app_taxi_colorAccentLight">#383535</color>
+
+    <color name="app_taxi_grey_very_hard">#7D7D7D</color>
+    <color name="app_taxi_grey_hard">#96989A</color>
+    <color name="app_taxi_grey_medium">#BDBFC1</color>
+    <color name="app_taxi_grey_soft">#F5F5F5</color>
+    <color name="app_taxi_grey_dark">#262626</color>
+
+    <color name="app_taxi_grey_bg">#EBEFF0</color>
+
+    <color name="app_taxi_grey_text">#222D31</color>
+    <color name="app_taxi_price_color">#8BC34A</color>
+
+    <color name="app_taxi_ongoing_color">#F7CE00</color>
+    <color name="app_taxi_finished_color">#8BC34A</color>
+    <color name="app_taxi_canceled_color">#96989A</color>
+
+</resources>

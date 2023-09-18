@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="App.Travel.AppTheme" parent="App.Travel.BaseTheme" />
+
+    <style name="App.Travel.BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_travel_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_travel_colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/app_travel_colorAccentLight</item>
+        <item name="colorAccent">@color/app_travel_colorAccent</item>
+        <item name="colorControlNormal">@color/app_travel_grey_hard</item>
+    </style>
+
+    <style name="App.Travel.AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="App.Travel.AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="App.Travel.RippleStyleWhite" parent="App.Travel.BaseTheme">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="App.Travel.RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <style name="App.Travel.DialogFragmentTheme" parent="@android:style/Theme.Panel">
+        <item name="android:windowAnimationStyle">@style/App.Travel.DialogFragmentTheme.Animation.Window</item>
+    </style>
+
+    <style name="App.Travel.DialogFragmentTheme.Animation.Window" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/app_travel_anim_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/app_travel_anim_dialog_out</item>
+    </style>
+
+    <style name="App.Travel.CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
+    </style>
+
+    <style name="App.Travel.CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

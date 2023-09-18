@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <size
+        android:width="@dimen/app_music_spacing_large"
+        android:height="@dimen/app_music_spacing_large" />
+    <solid android:color="@color/app_music_colorAccent" />
+</shape>

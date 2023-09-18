@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.chat">
+
+    <application>
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="false"
+            android:theme="@style/App.Chat.AppTheme" />
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.Chat.AppTheme" />
+        <activity
+            android:name=".ActivityChatDetails"
+            android:exported="false"
+            android:label="List"
+            android:theme="@style/App.Chat.AppTheme" />
+        <activity
+            android:name=".ActivitySelectFriend"
+            android:exported="false"
+            android:label="Select Friend"
+            android:theme="@style/App.Chat.AppTheme" />
+        <activity
+            android:name=".ActivityFriendDetails"
+            android:exported="false"
+            android:label="Friend Details"
+            android:theme="@style/App.Chat.AppTheme" />
+        <activity
+            android:name=".ActivityGroupDetails"
+            android:exported="false"
+            android:label="Group Details"
+            android:theme="@style/App.Chat.AppTheme" />
+    </application>
+</manifest>

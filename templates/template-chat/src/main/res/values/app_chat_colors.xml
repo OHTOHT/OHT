@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="app_chat_colorPrimary">#FF9800</color>
+    <color name="app_chat_colorPrimaryDark">#F57C00</color>
+    <color name="app_chat_colorPrimaryLight">#FFE0B2</color>
+
+    <color name="app_chat_colorAccent">#4FA7B5</color>
+    <color name="app_chat_colorAccentDark">#2F8B99</color>
+    <color name="app_chat_colorAccentLight">#6EC0CC</color>
+    <color name="app_chat_textColorSecondary">@color/app_chat_grey_hard</color>
+
+    <color name="app_chat_backGroundPrimary">@color/background_material_light</color>
+
+    <color name="app_chat_dialogContentColor">#767676</color>
+
+    <color name="app_chat_cardFeaturedContent">#E0E0E0</color>
+
+    <color name="app_chat_notif_color">#F58634</color>
+
+    <color name="app_chat_grey_hard">#96989A</color>
+    <color name="app_chat_grey_medium">#BDBFC1</color>
+    <color name="app_chat_grey_soft">#F5F5F5</color>
+
+    <color name="app_chat_grey_bg">#EBEFF0</color>
+    <color name="app_chat_grey_text">#222D31</color>
+    <color name="app_chat_me_chat_bg">#FFE0B2</color>
+
+</resources>

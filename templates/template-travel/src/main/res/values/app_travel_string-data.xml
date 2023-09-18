@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--hotel result dummy data-->
+    <integer-array name="app_travel_hotel_image">
+        <item>@drawable/app_travel_image_hotel_1</item>
+        <item>@drawable/app_travel_image_hotel_2</item>
+        <item>@drawable/app_travel_image_hotel_3</item>
+        <item>@drawable/app_travel_image_hotel_4</item>
+        <item>@drawable/app_travel_image_hotel_5</item>
+
+        <item>@drawable/app_travel_image_hotel_6</item>
+        <item>@drawable/app_travel_image_hotel_7</item>
+        <item>@drawable/app_travel_image_hotel_8</item>
+        <item>@drawable/app_travel_image_hotel_9</item>
+        <item>@drawable/app_travel_image_hotel_10</item>
+    </integer-array>
+
+    <string-array name="app_travel_hotel_name">
+        <item>Royal Ambarrukmo Yogyakarta</item>
+        <item>Hotel Tentrem Yogyakarta</item>
+        <item>Horison Grand Keisha Yogyakarta</item>
+        <item>Hotel New Saphir Yogyakarta</item>
+        <item>Horison Yogyakarta</item>
+
+        <item>Grand Inna Malioboro</item>
+        <item>Grand Serela Yogyakarta</item>
+        <item>Indoluxe Hotel Jogjakarta</item>
+        <item>Horison Lynn Yogyakarta</item>
+        <item>Eastparc Hotel Yogyakarta</item>
+    </string-array>
+
+    <integer-array name="app_travel_hotel_rating">
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="app_travel_hotel_location">
+        <item>Depok, Yogyakarta</item>
+        <item>Jetis, Yogyakarta</item>
+        <item>Depok, Yogyakarta</item>
+        <item>Depok, Yogyakarta</item>
+        <item>Gondokusuman, Yogyakarta</item>
+
+        <item>Malioboro Street, Yogyakarta</item>
+        <item>Mlati, Yogyakarta</item>
+        <item>Ngaglik, Yogyakarta</item>
+        <item>Mantrijeron, Yogyakarta</item>
+        <item>Depok, Yogyakarta</item>
+    </string-array>
+
+    <string-array name="app_travel_hotel_price">
+        <item>Rp 949.556</item>
+        <item>Rp 1.512.500</item>
+        <item>Rp 717.500</item>
+        <item>Rp 713.400</item>
+        <item>Rp 593.750</item>
+
+        <item>Rp 694.172</item>
+        <item>Rp 498.750</item>
+        <item>Rp 584.100</item>
+        <item>Rp 391.020</item>
+        <item>Rp 1.036.450</item>
+    </string-array>
+
+
+    <!--flight result dummy data-->
+    <integer-array name="app_travel_airline_logo">
+        <item>@drawable/app_travel_logo_airline_lion</item>
+        <item>@drawable/app_travel_logo_airline_citilink</item>
+        <item>@drawable/app_travel_logo_airline_batik</item>
+        <item>@drawable/app_travel_logo_airline_airasia</item>
+        <item>@drawable/app_travel_logo_airline_nam</item>
+        <item>@drawable/app_travel_logo_airline_garuda</item>
+        <item>@drawable/app_travel_logo_airline_sriw</item>
+    </integer-array>
+
+    <string-array name="app_travel_airline_name">
+        <item>Lion Air</item>
+        <item>Citilink</item>
+        <item>Batik</item>
+        <item>AirAsia</item>
+        <item>NAM</item>
+        <item>Garuda</item>
+        <item>Sriwijaya</item>
+    </string-array>
+
+    <string-array name="app_travel_airline_flight_code">
+        <item>JT-625</item>
+        <item>QG-328</item>
+        <item>ID-253</item>
+        <item>QZ-955</item>
+        <item>NA-277</item>
+        <item>GA-831</item>
+        <item>SJ-084</item>
+    </string-array>
+
+    <string-array name="app_travel_time_origin">
+        <item>15:50</item>
+        <item>17:00</item>
+        <item>05:40</item>
+        <item>12:00</item>
+        <item>05:20</item>
+
+        <item>08:00</item>
+        <item>10:05</item>
+        <item>12:10</item>
+        <item>13:00</item>
+        <item>16:20</item>
+    </string-array>
+
+    <string-array name="app_travel_time_destination">
+        <item>17:00</item>
+        <item>18:10</item>
+        <item>06:50</item>
+        <item>13:10</item>
+        <item>06:35</item>
+
+        <item>09:20</item>
+        <item>11:20</item>
+        <item>13:25</item>
+        <item>14:20</item>
+        <item>17:35</item>
+    </string-array>
+
+    <string-array name="app_travel_duration">
+        <item>1h 10m</item>
+        <item>1h 10m</item>
+        <item>1h 10m</item>
+        <item>1h 10m</item>
+        <item>1h 15m</item>
+
+        <item>1h 20m</item>
+        <item>1h 15m</item>
+        <item>1h 15m</item>
+        <item>1h 20m</item>
+        <item>1h 20m</item>
+    </string-array>
+
+    <string-array name="app_travel_price">
+        <item>Rp 370.500</item>
+        <item>Rp 378.000</item>
+        <item>Rp 453.000</item>
+        <item>Rp 486.000</item>
+        <item>Rp 493.500</item>
+
+        <item>Rp 539.000</item>
+        <item>Rp 562.100</item>
+        <item>Rp 598.000</item>
+        <item>Rp 652.850</item>
+        <item>Rp 658.500</item>
+    </string-array>
+
+    <!--hotel city dummy data-->
+    <string-array name="app_travel_hotel_city">
+        <item>Ambon</item>
+        <item>Balikpapan</item>
+        <item>Banda Aceh</item>
+        <item>Bandar Lampung</item>
+        <item>Bandung</item>
+
+        <item>Banjarmasin</item>
+        <item>Batam</item>
+        <item>Bau-Bau, Buton</item>
+        <item>Biak</item>
+        <item>Bali, Denpasar</item>
+
+        <item>Jakarta</item>
+        <item>Jayapura</item>
+        <item>Kupang</item>
+        <item>Lombok</item>
+        <item>Manado</item>
+
+        <item>Labuan Bajo</item>
+        <item>Makassar</item>
+        <item>Medan</item>
+        <item>Medan</item>
+        <item>Merauke</item>
+
+        <item>Padang</item>
+        <item>Palembang</item>
+        <item>Pekanbaru</item>
+        <item>Pontianak</item>
+        <item>Semarang</item>
+
+        <item>Solo</item>
+        <item>Surabaya</item>
+        <item>Tanjung Pinang</item>
+        <item>Tarakan</item>
+        <item>Timika</item>
+
+        <item>Yogyakarta</item>
+    </string-array>
+
+
+    <!--airport list dummy data-->
+    <string-array name="app_travel_airport_code">
+        <item>AMQ</item>
+        <item>BPN</item>
+        <item>BTJ</item>
+        <item>TKG</item>
+        <item>BDO</item>
+
+        <item>BDJ</item>
+        <item>BTH</item>
+        <item>BUW</item>
+        <item>BIK</item>
+        <item>DPS</item>
+
+        <item>CGK</item>
+        <item>HLP</item>
+        <item>DJJ</item>
+        <item>KOE</item>
+        <item>LOP</item>
+
+        <item>MDC</item>
+        <item>LBJ</item>
+        <item>UPG</item>
+        <item>KNO</item>
+        <item>MES</item>
+
+        <item>TIM</item>
+        <item>PDG</item>
+        <item>PLM</item>
+        <item>PKU</item>
+        <item>PNK</item>
+
+        <item>SRG</item>
+        <item>SOC</item>
+        <item>SUB</item>
+        <item>TNJ</item>
+        <item>TRK</item>
+
+        <item>MKQ</item>
+        <item>JOG</item>
+    </string-array>
+
+    <string-array name="app_travel_airport_name">
+        <item>Pattimura</item>
+        <item>Sepinggan</item>
+        <item>Sultan Iskandarmuda</item>
+        <item>Radin Inten II</item>
+        <item>Husein Sastranegara</item>
+
+        <item>Syamsuddin Noor</item>
+        <item>Hang Nadim</item>
+        <item>Betoambari</item>
+        <item>Frans Kaisiepo</item>
+        <item>Ngurah Rai</item>
+
+        <item>Soekarno-Hatta</item>
+        <item>Halim Perdanakusuma</item>
+        <item>Sentani</item>
+        <item>El Tari</item>
+        <item>Lombok Praya</item>
+
+        <item>Sam Ratulangi</item>
+        <item>Komodo</item>
+        <item>Sultan Hasanuddin</item>
+        <item>Kualanamu</item>
+        <item>Medan</item>
+
+        <item>Mozes Kilangin</item>
+        <item>Minangkabau</item>
+        <item>Sultan Mahmud Badaruddin II</item>
+        <item>Sultan Syarif Kasim II</item>
+        <item>Supadio</item>
+
+        <item>Achmad Yani</item>
+        <item>Adisumarmo</item>
+        <item>Juanda</item>
+        <item>Raja Haji Fisabilillah</item>
+        <item>Juwata</item>
+
+        <item>Mopah</item>
+        <item>Adi Sutjipto</item>
+    </string-array>
+
+    <string-array name="app_travel_airport_city">
+        <item>Ambon</item>
+        <item>Balikpapan</item>
+        <item>Banda Aceh</item>
+        <item>Bandar Lampung</item>
+        <item>Bandung</item>
+
+        <item>Banjarmasin</item>
+        <item>Batam</item>
+        <item>Bau-Bau, Buton</item>
+        <item>Biak</item>
+        <item>Bali, Denpasar</item>
+
+        <item>Jakarta</item>
+        <item>Jakarta</item>
+        <item>Jayapura</item>
+        <item>Kupang</item>
+        <item>Lombok</item>
+
+        <item>Manado</item>
+        <item>Labuan Bajo</item>
+        <item>Makassar</item>
+        <item>Medan</item>
+        <item>Medan</item>
+
+        <item>Merauke</item>
+        <item>Padang</item>
+        <item>Palembang</item>
+        <item>Pekanbaru</item>
+        <item>Pontianak</item>
+
+        <item>Semarang</item>
+        <item>Solo</item>
+        <item>Surabaya</item>
+        <item>Tanjung Pinang</item>
+        <item>Tarakan</item>
+
+        <item>Timika</item>
+        <item>Yogyakarta</item>
+    </string-array>
+
+</resources>

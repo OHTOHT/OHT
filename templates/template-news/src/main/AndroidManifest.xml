@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="template.news">
+
+    <application>
+
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="false"
+            android:theme="@style/App.News.AppTheme" />
+
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:theme="@style/App.News.AppTheme" />
+
+        <activity
+            android:name=".ActivityChannelDetails"
+            android:exported="false"
+            android:theme="@style/App.News.AppTheme" />
+
+        <activity
+            android:name=".ActivityNewsDetails"
+            android:exported="false"
+            android:theme="@style/App.News.AppTheme" />
+
+        <activity
+            android:name=".ActivityRegister"
+            android:exported="false"
+            android:theme="@style/App.News.AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+    </application>
+</manifest>
