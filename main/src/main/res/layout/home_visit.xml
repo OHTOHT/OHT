@@ -88,8 +88,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/btn_star"
-            tools:src="@drawable/ic_home" />
+            android:src="@drawable/app_insta_tab_home"
+            tools:src="@drawable/ic_maps_home_work" />
 
         <ImageButton
             android:id="@+id/imageButton4"

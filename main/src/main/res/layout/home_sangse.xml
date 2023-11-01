@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="396dp"
+            android:layout_height="50dp"
+            android:background="#70D374"
+            android:textAlignment="center">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Appbar"
+                android:textSize="20sp" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="61dp"
+            android:layout_height="49dp"
+            android:src="@tools:sample/avatars"
+            app:srcCompat="@android:color/background_light"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="50dp"
+            tools:srcCompat="@drawable/app_music_ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="172dp"
+            android:layout_height="35dp"
+            android:text="상세 정보 입력"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <LinearLayout
+            android:layout_width="388dp"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="364dp">
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="하나은행" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_arrow_drop_grey" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="374-1215-123147"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="149dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="188dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이름"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="남승우" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="방문 및 날짜 시각"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextText2"
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="2023 년 10 월 23 일" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ic_arrow_drop_grey" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="392dp"
+            android:layout_height="60dp"
+            android:background="#D5D6D6"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="724dp">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/app_insta_tab_home"
+                tools:src="@drawable/ic_maps_home_work" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/btn_star"
+                tools:src="@drawable/ic_bookmark" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/btn_star"
+                tools:src="@drawable/ic_chat" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@android:drawable/btn_star"
+                tools:src="@drawable/ic_account_circle_outline" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="26dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="338dp">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="은행명"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="계좌번호"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="납품 정보 입력"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="379dp"
+            android:layout_height="232dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="중요안내사항 -> 최소 5kg ~ ~~~ "
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="441dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="385dp"
+            android:layout_height="59dp"
+            android:text="신청하기"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="396dp"
+                android:layout_height="50dp"
+                android:background="#70D374"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Appbar"
+                    android:textSize="20sp" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="61dp"
+                android:layout_height="49dp"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@android:color/background_light"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="50dp"
+                tools:srcCompat="@drawable/app_music_ic_arrow_back" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="392dp"
+                android:layout_height="60dp"
+                android:background="#D5D6D6"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="724dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/app_insta_tab_home"
+                    tools:src="@drawable/ic_maps_home_work" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/btn_star"
+                    tools:src="@drawable/ic_bookmark" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/btn_star"
+                    tools:src="@drawable/ic_chat" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/btn_star"
+                    tools:src="@drawable/ic_account_circle_outline" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="391dp"
+                android:layout_height="623dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="100dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="401dp"
+                    android:layout_height="44dp"
+                    android:text="       몽땅수거 조치원점"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:id="@+id/취급품목        #헌옷 #컴퓨터 #잡동사니"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="취급품목                  #헌옷 #컴퓨터 #잡동사니" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="최소무게                  5kg이상" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="취급품목                  #헌옷 #컴퓨터 #잡동사니" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="수거가능지역           조치원,신안리,청주" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="영업시간                  연중무휴" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    app:srcCompat="@android:drawable/ic_menu_day" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="정보입력하기" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
