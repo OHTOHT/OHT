@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/grey_20"
         android:orientation="vertical">
 
         <com.google.android.material.appbar.AppBarLayout
@@ -28,58 +29,75 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="593dp"
-            android:orientation="horizontal">
+            android:layout_height="602dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="658dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.15"
+                    android:text="계정 관리"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/black"
+                    android:textSize="100px" />
+
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:letterSpacing="0.15"
-                android:text="Mypage"
-                android:textAlignment="center"
-                android:textColor="@color/teal_900"
-                android:textSize="150px" />
+                android:text="TextView" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/imageButton7"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/app_insta_ic_tab_home" />
-
-            <ImageButton
-                android:id="@+id/imageButton8"
-                android:layout_width="90dp"
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
-                android:scaleType="fitCenter"
-                app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+                android:text="🏠︎"
+                android:textSize="34sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton10"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/app_taxi_ic_menu" />
+                android:text="📅"
+                android:textSize="34sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton12"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/app_taxi_ic_pax" />
+                android:text="📝"
+                android:textSize="34sp" />
 
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="👨🏻‍🦲"
+                android:textSize="34sp" />
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
